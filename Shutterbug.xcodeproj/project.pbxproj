@@ -14,13 +14,14 @@
 		1AAC0A12185847DD004B7725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC0A11185847DD004B7725 /* main.m */; };
 		1AAC0A16185847DD004B7725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC0A15185847DD004B7725 /* AppDelegate.m */; };
 		1AAC0A19185847DD004B7725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC0A17185847DD004B7725 /* Main.storyboard */; };
-		1AAC0A1C185847DD004B7725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC0A1B185847DD004B7725 /* ViewController.m */; };
 		1AAC0A1E185847DD004B7725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC0A1D185847DD004B7725 /* Images.xcassets */; };
 		1AAC0A25185847DD004B7725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC0A24185847DD004B7725 /* XCTest.framework */; };
 		1AAC0A26185847DD004B7725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC0A05185847DD004B7725 /* Foundation.framework */; };
 		1AAC0A27185847DD004B7725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC0A09185847DD004B7725 /* UIKit.framework */; };
 		1AAC0A2F185847DD004B7725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC0A2D185847DD004B7725 /* InfoPlist.strings */; };
 		1AAC0A31185847DD004B7725 /* ShutterbugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC0A30185847DD004B7725 /* ShutterbugTests.m */; };
+		1AAC0A3C18584822004B7725 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC0A3B18584822004B7725 /* ImageViewController.m */; };
+		1AAC0A3F18584B52004B7725 /* HawaiiImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC0A3E18584B52004B7725 /* HawaiiImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		1AAC0A14185847DD004B7725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1AAC0A15185847DD004B7725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1AAC0A18185847DD004B7725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1AAC0A1A185847DD004B7725 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1AAC0A1B185847DD004B7725 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1AAC0A1D185847DD004B7725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AAC0A23185847DD004B7725 /* ShutterbugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterbugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAC0A24185847DD004B7725 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1AAC0A2C185847DD004B7725 /* ShutterbugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShutterbugTests-Info.plist"; sourceTree = "<group>"; };
 		1AAC0A2E185847DD004B7725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AAC0A30185847DD004B7725 /* ShutterbugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutterbugTests.m; sourceTree = "<group>"; };
+		1AAC0A3A18584822004B7725 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		1AAC0A3B18584822004B7725 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		1AAC0A3D18584B52004B7725 /* HawaiiImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HawaiiImageViewController.h; sourceTree = "<group>"; };
+		1AAC0A3E18584B52004B7725 /* HawaiiImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HawaiiImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,11 @@
 		1AAC0A0B185847DD004B7725 /* Shutterbug */ = {
 			isa = PBXGroup;
 			children = (
-				1AAC0A14185847DD004B7725 /* AppDelegate.h */,
-				1AAC0A15185847DD004B7725 /* AppDelegate.m */,
 				1AAC0A17185847DD004B7725 /* Main.storyboard */,
-				1AAC0A1A185847DD004B7725 /* ViewController.h */,
-				1AAC0A1B185847DD004B7725 /* ViewController.m */,
+				1AAC0A3D18584B52004B7725 /* HawaiiImageViewController.h */,
+				1AAC0A3E18584B52004B7725 /* HawaiiImageViewController.m */,
+				1AAC0A3A18584822004B7725 /* ImageViewController.h */,
+				1AAC0A3B18584822004B7725 /* ImageViewController.m */,
 				1AAC0A1D185847DD004B7725 /* Images.xcassets */,
 				1AAC0A0C185847DD004B7725 /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		1AAC0A0C185847DD004B7725 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1AAC0A14185847DD004B7725 /* AppDelegate.h */,
+				1AAC0A15185847DD004B7725 /* AppDelegate.m */,
 				1AAC0A0D185847DD004B7725 /* Shutterbug-Info.plist */,
 				1AAC0A0E185847DD004B7725 /* InfoPlist.strings */,
 				1AAC0A11185847DD004B7725 /* main.m */,
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AAC0A1C185847DD004B7725 /* ViewController.m in Sources */,
+				1AAC0A3C18584822004B7725 /* ImageViewController.m in Sources */,
 				1AAC0A16185847DD004B7725 /* AppDelegate.m in Sources */,
 				1AAC0A12185847DD004B7725 /* main.m in Sources */,
+				1AAC0A3F18584B52004B7725 /* HawaiiImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

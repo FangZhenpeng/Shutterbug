@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageViewController.h
 //  Shutterbug
 //
 //  Created by 方振鹏 on 13-12-11.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ImageViewController : UIViewController
+
+@property (nonatomic, strong) NSURL * imageURL;
 
 @end
