@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E52867FF-1B0A-4116-809B-14B7459761C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Shutterbug</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBFC9872-894B-426A-A75D-D6D07448EDEA</key>
+		<string>https://github.com/FangZhenpeng/Shutterbug.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Shutterbug.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBFC9872-894B-426A-A75D-D6D07448EDEA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/FangZhenpeng/Shutterbug.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DBFC9872-894B-426A-A75D-D6D07448EDEA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBFC9872-894B-426A-A75D-D6D07448EDEA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Shutterbug</string>
+		</dict>
+	</array>
+</dict>
+</plist>
